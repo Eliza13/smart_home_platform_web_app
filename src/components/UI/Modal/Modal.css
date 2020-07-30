@@ -1,0 +1,25 @@
+.Modal {
+    position: fixed;
+    z-index: 400;
+    background-color: #394a58;
+    width: 50%;
+    height: 70%;
+    border: 0.4px solid rgba(255, 255, 255, 0.856);
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.63);
+    padding: 16px;
+    left: 25%;
+    right: 25%;
+    top: 20%;
+    bottom: 10%;
+    box-sizing: border-box;
+    transition: all 0.4s ease-out;
+}
+
+.Modal h2 {
+    font-size: 20px;
+}
+
+.Close {
+    display: none;
+}

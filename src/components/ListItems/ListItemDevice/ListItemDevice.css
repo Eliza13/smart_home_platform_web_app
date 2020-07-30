@@ -1,0 +1,26 @@
+.ListItemDevice {
+    width: 600px;
+}
+
+.ListItemDevices {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    box-sizing: border-box;
+    flex-flow: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+@media (max-width: 870px) {
+    .ListItemDevice {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ListItemDevice {
+        width: 180px;
+    }
+}

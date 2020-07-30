@@ -1,0 +1,12 @@
+.SquareBtn {
+    background-color: rgba(255, 255, 255, 0.26);
+    border: 0.4px solid white;
+    border-radius: 10%;
+    box-sizing: border-box;
+    color: white;
+    padding: 4px;
+    font-size: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}

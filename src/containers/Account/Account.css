@@ -1,0 +1,37 @@
+.FormData {
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+    border: 0.4px solid #02a6bc75;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 8px rgba(36, 30, 30, 0.24);
+    margin-bottom: 40px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.FormData button {
+    margin: 40px auto;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #eee;
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .FormData {
+        width: 100%;
+        font-size: 9px;
+        margin-bottom: 50px;
+    }
+    
+    .FormData button {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
+}

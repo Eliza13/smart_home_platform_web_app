@@ -1,0 +1,17 @@
+.CircleBtn {
+    background-color: white;
+    border: 1px solid #223242;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #223242;
+    padding: 8px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.CircleBtn:hover {
+    background-color: #223242;
+    color: white;
+    border: 1px solid white;
+}

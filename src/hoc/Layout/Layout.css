@@ -1,0 +1,28 @@
+.Content {
+    margin: 80px;
+}
+
+/* style for all h2 elements in the app  */
+.Content h2 {
+    margin-bottom: 50px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 30px;
+    font-family: oswald;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ffffff, #ffffff);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 2px;
+    transition: background-size .5s ease;
+}
+
+.Content h2:hover {
+    background-size: 100% 2px;
+}
+
+@media (max-width: 500px) {
+    .Content h2 {
+        font-size: 15px;
+    }
+}

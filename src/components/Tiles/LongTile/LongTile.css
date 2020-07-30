@@ -1,0 +1,31 @@
+.LongTile {
+    width: 60%;
+    height: auto;
+    background-color: #223243;
+    box-shadow: 3px 6px 6px rgba(17, 2, 2, 0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #02a5bc;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+    .LongTile {
+        width: 40%;
+        height: auto;
+        flex-flow: column;
+    }
+    p {
+        font-size: 10px;
+    }
+    img {
+        width: 40%;
+        height: 40%;
+    }
+}

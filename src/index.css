@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/images/picBackground.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #2f4050;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+
+.CardLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* code to add the scrollbar style */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #02a5bc;
+  border-radius: 3px;
+}
+
+/* code for animating route loading */
+
+/* .switchwrapper {
+  position: relative;
+}
+
+.switchwrapper > div {
+  position: relative;
+} */

@@ -1,0 +1,52 @@
+.BasicTile {
+    width: 14%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 3px 3px rgba(17, 2, 2, 0.8);
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 0.4px solid #02a6bc75;
+    border-radius: 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #02a5bc;
+}
+
+.BasicTile img {
+    width: 40px;
+    height: 40px;
+}
+
+.BasicTile:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 770px) {
+    .BasicTile {
+        width: 50%;
+    }
+    p {
+        font-size: 10px;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+    .BasicTile {
+        width: 30%;
+    }
+    .BasicTile img {
+        width: 30px;
+        height: 30px;
+    }
+}

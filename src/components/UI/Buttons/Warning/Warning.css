@@ -1,0 +1,17 @@
+.Warning {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.Warning img {
+    width: 20px;
+    height: 25px;
+}
+
+@media (max-width:500px) {
+    .Warning img {
+        width: 10px;
+        height: 15px;
+    }
+}

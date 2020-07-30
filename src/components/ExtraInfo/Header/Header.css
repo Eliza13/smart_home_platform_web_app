@@ -1,0 +1,27 @@
+.Header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    z-index: 500;
+    position: relative;
+}
+
+.Header img {
+    width: 8%;
+    height: 8%;
+}
+
+@media (max-width: 500px) {
+    .Header img {
+        width: 18%;
+        height: 18%;
+    }
+    
+    .Header {
+        margin-bottom: 8px;
+    }
+}
